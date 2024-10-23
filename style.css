@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(206, 170, 122);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: lightgray;
+}
+
+header, nav{
+    background-color:rgb(81, 38, 21);
+}
+
+header{
+    padding: 30px;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    padding-top: 2px;
+    display: block;
+}
+
+main{
+    margin-top: 60px;
+}
+
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    scroll-margin-top: 15ex;
+}
+.logo img{
+    max-width: 100%;
+    height: auto;
+    margin-top:55px;
+}
+
+.navbar{
+    text-align: center;
+    width: 100%;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: rgb(243, 227, 196);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .5s;
+    background-color: rgb(81, 38, 21);
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.titulos{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo, .texto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.historia{
+    margin-top: 20px;
+    background-color: rgb(206, 170, 122);
+    padding: 20px;
+    scroll-margin-top: 5ex;
+}
+
+.menu{
+    scroll-margin-top: 5ex;
+}
+
+.menu img{
+    width: 400px;
+    height: 400px;
+}
+
+.tt{
+    font-size: 45px;
+}
+
+.tt, .gatito{
+    display: flex;
+    justify-content: center;
+}
+
+.gatito{
+    font-size: 30px;
+    color: rgb(255, 241, 228);
+}
+
+.lana{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.lana img{
+    margin: 2px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rosa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moño{
+    font-size: 25px;
+}
+.moño p{
+    align-items: center;
+}
+
+.promos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promos1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.servicios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.perfume{
+    font-size: 30px;
+    color: rgb(65, 41, 19);
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 0 rgb(253, 249, 249);
+}
+
+.manteca{
+    display: flex;
+    justify-content: center;
+}
+
+.flor{
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(143, 86, 64);;
+    font-size: 20px;
+    width: 9em;
+    border-radius: 2rem;
+    color: rgb(2, 1, 0);
+    box-shadow: 0 0.2rem #563c2c;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.botones svg{
+    margin-right: 0.5em;
+    background-color: transparent;
+}
+
+.botones:active {
+    box-shadow: 0 0.2rem #000000;
+    transform: translateY(0.2rem);
+}
+
+.botones:hover {
+    background-color: rgb(179, 117, 70);
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transform: translateY(0.2rem);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.promos{
+    font-size: 20px;
+    padding-top: 100px;
+}
